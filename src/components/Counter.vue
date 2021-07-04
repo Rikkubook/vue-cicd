@@ -1,6 +1,6 @@
 <template>
   <div class="hello">
-    <h1>{{ count }}</h1>
+    <h1 data-testId="counterId">當前點擊次數{{ count }}</h1>
     <button @click="CountFn()">點我加1</button>
   </div>
 </template>
