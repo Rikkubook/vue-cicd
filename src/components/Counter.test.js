@@ -13,5 +13,5 @@ test('click [當前點擊次數1]', async()=>{
   const incrementButton = getByText('點我加1') // 拿到文字為
   await fireEvent.click(incrementButton) // 要改成非同步點擊
   const title = getByTestId('counterId')
-  expect(title.innerHTML).toBe('當前點擊次2') // 確認
+  expect(title.innerHTML).toBe('當前點擊次1') // 確認
 }) 
